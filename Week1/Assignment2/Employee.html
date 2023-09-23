@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Registration</title>
+</head>
+<body bgcolor="Lightskyblue" >
+  <h1>Employee Registration</h1>
+    <form action="#" method="post" enctype="multipart/form-data" >
+        <label for="firstname">First Name: <span style="color: red;">*</span></label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <label for="lastname">Last Name: <span style="color: red;">*</span></label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <label for="email">Email: <span style="color: red;">*</span></label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Gender: <span style="color: red;">*</span></label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+
+        <label for="age">Age: <span style="color: red;">*</span></label>
+        <input type="number" id="age" name="age" required min="18"><br><br>
+
+        <label for="cityOfBirth">City of Birth: <span style="color: red;">*</span></label>
+        <select id="cityOfBirth" name="cityOfBirth" required>
+            <option value="bangalore">Bangalore</option>
+            <option value="jaipur">Jaipur</option>
+            <option value="sambalpur">Sambalpur</option>
+            <option value="mangalore">Mangalore</option>
+            <option value="patna">Patna</option>
+            <option value="srinagar">Srinagar</option>
+            <option value="kanpur">Kanpur</option>
+            <option value="guwahati">Guwahati</option>
+            <option value="hassan">Hassan</option>
+            <option value="ramnagar">Ramnagar</option>
+            <option value="bidar">Bidar</option>
+            <option value="tumkur">Tumkur</option>
+        </select><br><br>
+
+        <label for="resume">Select Your Resume (PDF, DOC, or DOCX): <span style="color: red;">*</span></label>
+        <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required><br><br>
+
+        <label>Position Applying For: <span style="color: red;">*</span></label><br>
+        <input type="checkbox" id="developer" name="position[]" value="developer">
+        <label for="developer">Developer</label><br>
+        <input type="checkbox" id="designer" name="position[]" value="designer">
+        <label for="designer">Designer</label><br>
+        <input type="checkbox" id="testingEngineer" name="position[]" value="testing_engineer">
+        <label for="testingEngineer">Testing Engineer</label><br>
+        <input type="checkbox" id="salesSupport" name="position[]" value="sales_support">
+        <label for="salesSupport">Sales Support</label><br>
+        <input type="checkbox" id="hr" name="position[]" value="hr">
+        <label for="hr">HR</label><br><br>
+
+        <label for="joiningDate">Tentative Joining Date:</label>
+        <input type="date" id="joiningDate" name="joiningDate"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

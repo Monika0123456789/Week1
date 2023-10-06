@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  background: rgb(64, 182, 218);
+}
+
+#searchBox {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#input {
+  width: 80%;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+#searchBtn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background: rgb(69, 23, 169);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.content-container {
+  width: 90%;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: justify;
+  max-width: 700px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+h2{
+  margin-bottom: 15px;
+}
+mark {
+  background: yellow;
+}
+</style>
+<script>
+       function clickHandler(){
+        // const p = document.getElementById("p");
+        var input = document.getElementById("input").value;
+        if (input !== "") {
+        let regExp = new RegExp(input, "gi");
+         p.innerHTML = p.textContent.replace(regExp, "<mark>$&</mark>");
+         }
+       }
+
+       function init(){
+            document.getElementById("searchBtn").addEventListener("click", clickHandler)
+        }
+        document.addEventListener("DOMContentLoaded",init);
+</script>
+</head>
+<body>
+  <h2>Search the Word in the Paragraph..</h2>
+  <div id="searchBox">
+    <input type="text" id="input" placeholder="Search" />
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <div class="content-container" id="content">
+    <p id="p">
+      Bali is predominantly a Hindu country. Bali is known for its elaborate, traditional dancing. The dancing is inspired by its Hindi beliefs. Most of the dancing portrays tales of good versus evil. To watch the dancing is a breathtaking experience. Lombok has some impressive points of interest – the majestic Gunung Rinjani is an active volcano. It is the second highest peak in Indonesia. Art is a Balinese passion. Batik paintings and carved statues make popular souvenirs. Artists can be seen whittling and painting on the streets, particularly in Ubud. It is easy to appreciate each island as an attractive tourist destination. Majestic scenery; rich culture; white sands and warm, azure waters draw visitors like magnets every year. Snorkelling and diving around the nearby Gili Islands is magnificent. Marine fish, starfish, turtles and coral reef are present in abundance. Bali and Lombok are part of the Indonesian archipelago. Bali has some spectacular temples. The most significant is the Mother Temple, Besakih. The inhabitants of Lombok are mostly Muslim with a Hindu minority. Lombok remains the most understated of the two islands. Lombok has several temples worthy of a visit, though they are less prolific. Bali and Lombok are neighbouring islands.
+    </p>
+ 
+</body>
+</html>

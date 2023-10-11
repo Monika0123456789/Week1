@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    .container1{
+      display: flex;
+      width: 800px;
+     
+    }
+    
+    button{
+        width: 200px;
+        margin: auto;
+        margin-bottom: 20px;
+        display: block;
+    }
+    img{
+      width: 400px;
+      height: 400px;
+      border: 2px solid black;
+    }
+    
+</style>
+  <script src="lib/jquey-3.7.1.js"></script>
+  <script>
+    var tempdata = {};
+       $(()=>{
+            $.getJSON("data/data.json", function(data, status, jqxhr){
+                tempdata = data;
+                $(data.herolist).each(function(idx,val){
+                    $(".hlist").append(`<option value="${idx}">${val.title}</option>`)
+                })
+               
+            });
+            $(".box").on("click","button",function(evt){
+               // alert("button was clicked");
+               $(evt.target).next().removeAttr("hidden");
+
+          })
+
+          $(".hlist").on("change",function(evt){
+               // console.log(evt.target.value);
+               //console.log(tempdata.herolist[evt.target.value]);
+               let selectedhero = tempdata.herolist[evt.target.value];
+               let heromovielist = selectedhero.movieslist;
+               
+              let movielistcontainer = "";
+            if (heromovielist.length > 0) {
+          movielistcontainer = '<ul class="list-group list-group-flush">';
+            heromovielist.forEach(function (movieslist) {
+               movielistcontainer += `<li class="list-group-item" data-poster="${movieslist.poster}">${movieslist.title}</li>`;
+           });
+            movielistcontainer += "</ul>";
+          }else{
+                  alert("No Movies Available");
+          }
+
+                $(".box").html(`<div class="card" style="width: 18rem;">
+                <img src="${selectedhero.poster.replace('assets/images','images/')}" class="card-img-top" alt="${selectedhero.title}">
+                <div class="card-body">
+                    <h5 class="card-title">${selectedhero.title}</h5>
+                    <p class="card-text">
+                        Full Name : ${selectedhero.firstname +" "+selectedhero.lastname}
+                        <br/>
+                        Release on : ${selectedhero.releasedate}
+                        <br/>
+                        Ticket Price : ${selectedhero.ticketprice}
+                        <br/>
+                        City : ${selectedhero.city}
+                    </p>
+                    <button class="btn btn-primary movies">Movies</button>
+                    <div hidden class="card" style="width: 100%">
+                                ${movielistcontainer} 
+                    </div>
+                </div>
+                </div>
+                `)
+            })
+      $(".box").on("click", ".list-group-item", function () {
+        var posterUrl = $(this).data("poster");
+        displayMoviePoster(posterUrl);
+    });
+
+    function displayMoviePoster(posterUrl) {
+       $(".poster-container").html(`
+        <img src="${posterUrl}" alt="Movie Poster">
+        `);
+    }
+
+        });
+  </script>
+</head>
+<body>
+  <div class="container1">
+    <div class="container">
+    <select class="hlist">
+            <option>default</option>
+    </select>
+        <div class="box"></div>
+   </div>
+  <div class="poster-container"></div>
+  </div>
+</body>
+</html>
+
+
+
+
+

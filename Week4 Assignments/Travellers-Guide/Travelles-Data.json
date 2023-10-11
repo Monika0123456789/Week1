@@ -1,0 +1,745 @@
+{
+  "UserData": [{
+      "sim": "Jio",
+      "mobile": "908765432",
+      "imei": "2356890231",
+      "service provider": "",
+      "network status": "good",
+      "battery status":" 70%",
+      "address": "Bangalure",
+      "health condition": ""
+  }
+],
+  "Places" : [{
+    "city1" : "Banagalore",
+    "Typeofplaces-in-Bangalore" :{
+      "Historical" : [{
+        "name": "Bangalore Palace",
+        "latitude": 12.9986,
+        "longitude": 77.5926,
+        "timings": "10:00 AM - 5:30 PM (Closed on Sundays)",
+        "description": "The Bangalore Palace is a magnificent example of Tudor architecture and is known for its stunning wooden interiors and beautiful gardens.",
+        "address": "Palace Road, Vasanth Nagar, Bengaluru, Karnataka 560052",
+        "entry_fee": {
+          "Indian_adults": "₹230",
+          "Indian_children": "₹115",
+          "Foreign_tourists": "₹460"
+         }
+      },{
+        "name": "Tipu Sultan's Summer Palace",
+        "latitude": 12.9591,
+        "longitude": 77.5736,
+        "timings": "10:00 AM - 6:00 PM (Closed on Sundays)",
+        "description": "This historic palace was the summer residence of Tipu Sultan and is known for its beautiful Indo-Islamic architecture.",
+        "address": "Albert Victor Road, Chamrajpet, Bengaluru, Karnataka 560018",
+        "entry_fee": {
+          "Indian_adults": "₹15",
+          "Indian_children": "₹5",
+          "Foreign_tourists": "₹200"
+        }
+      },{
+        "name": "Bangalore Fort",
+        "latitude": 12.9641,
+        "longitude": 77.5715,
+        "timings": "Open 24 hours",
+        "description": "The Bangalore Fort is a historic fort built by Kempe Gowda I, the founder of Bangalore. It's a symbol of the city's history.",
+        "entry_fee": "Free"
+      },{
+      "name": "Bull Temple",
+      "latitude": 12.9471,
+      "longitude": 77.5673,
+      "timings": "6:00 AM - 8:00 PM",
+      "description": "The Bull Temple is famous for its massive Nandi bull statue, which is carved from a single granite rock and is considered sacred.",
+      "entry_fee": "Free",
+      "address": "Bull Temple Road, Basavanagudi, Bengaluru, Karnataka 560004"
+      }
+    ],
+    "Adventerous" : [{
+      "name": "Nandi Hills",
+      "latitude": 13.3702,
+      "longitude": 77.6833,
+      "description": "Nandi Hills is a popular hill station near Bangalore, known for its stunning views, trekking opportunities, and paragliding. It offers a serene escape from the city's hustle and bustle.",
+      "entry_fee": "₹5 for Indians, ₹100 for foreigners",
+      "timings": "Open 24 hours",
+      "address": "Nandi Hills, Chikkaballapur, Karnataka 562103"
+    },{
+      "name": "Savandurga",
+      "latitude": 12.9194,
+      "longitude": 77.2937,
+      "description": "Savandurga is one of the largest monolith hills in Asia and is a popular spot for rock climbing and trekking. The views from the top are breathtaking.",
+      "entry_fee": "Free",
+      "timings": "Open 24 hours",
+      "address": "Savandurga, Magadi, Karnataka 562130"
+    },{
+      "name": "Ramanagara",
+      "latitude": 12.7163,
+      "longitude": 77.2815,
+      "description": "Ramanagara is a popular spot for rock climbing and trekking. It's also famous as the location where the iconic Bollywood movie 'Sholay' was filmed.",
+      "entry_fee": "Free",
+      "timings": "Open 24 hours",
+      "address": "Ramanagara, Karnataka 562159"
+    },{
+      "name": "Bannerghatta National Park",
+      "latitude": 12.8001,
+      "longitude": 77.5770,
+      "description": "Bannerghatta National Park offers wildlife safaris, a zoo, and a butterfly park. It's a great place for nature enthusiasts and wildlife lovers.",
+      "entry_fee": {
+        "Safari": "₹260 per person (Indian), ₹500 per person (foreigner)",
+        "Zoo": "₹80 per person (Indian), ₹400 per person (foreigner)"
+      },
+      "timings": "9:30 AM - 5:00 PM (Closed on Tuesdays)",
+      "address": "Bannerghatta Road, Bannerghatta, Bengaluru, Karnataka 560083"
+     
+    }
+  ],"Park" : [{
+    "name": "Lalbagh Botanical Garden",
+      "latitude": 12.9507,
+      "longitude": 77.5848,
+      "description": "Lalbagh is a beautiful botanical garden with a vast collection of plants, a glasshouse, and a serene lake. It's a great place for a leisurely stroll and picnics.",
+      "entry_fee": {
+        "Adults": "₹20 (Weekdays), ₹30 (Weekends and Holidays)",
+        "Children (6-12 years)": "₹10 (Weekdays), ₹15 (Weekends and Holidays)",
+        "Children (Below 6 years)": "Free"
+      },
+      "timings": "6:00 AM - 6:00 PM",
+      "address": "Mavalli, Bengaluru, Karnataka 560004"
+  },{
+    "name": "Cubbon Park",
+    "latitude": 12.9773,
+    "longitude": 77.5953,
+    "description": "Cubbon Park is a lush urban park in the heart of Bangalore. It's a popular spot for jogging, nature walks, and relaxation, with many exotic plant species and historic buildings within its premises.",
+    "entry_fee": "Free",
+    "timings": "6:00 AM - 6:00 PM (Closed on Mondays)",
+    "address": "Kasturba Road, Sampangi Rama Nagar, Bengaluru, Karnataka 560001"
+  },{
+    "name": "Cubbon Park",
+      "latitude": 12.9773,
+      "longitude": 77.5953,
+      "description": "Cubbon Park is a lush urban park in the heart of Bangalore. It's a popular spot for jogging, nature walks, and relaxation, with many exotic plant species and historic buildings within its premises.",
+      "entry_fee": "Free",
+      "timings": "6:00 AM - 6:00 PM (Closed on Mondays)",
+      "address": "Kasturba Road, Sampangi Rama Nagar, Bengaluru, Karnataka 560001"
+  },{
+    "name": "Sampangi Lake Park",
+    "latitude": 12.9674,
+    "longitude": 77.5964,
+    "description": "Sampangi Lake Park is a small but serene park built around the picturesque Sampangi Lake. It's a peaceful place for a leisurely walk and bird watching.",
+    "entry_fee": "Free",
+    "timings": "6:00 AM - 8:00 PM",
+    "address": "Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025"
+  }
+],"Religious" : [{
+  "name": "ISKCON Temple Bangalore",
+  "latitude": 12.9592,
+  "longitude": 77.5964,
+  "timings": "4:15 AM - 5:00 AM, 7:15 AM - 1:00 PM, 4:00 PM - 8:15 PM",
+  "description": "The ISKCON Temple in Bangalore is a beautiful and serene temple dedicated to Lord Krishna. It is one of the largest ISKCON temples in the world and a popular spiritual and cultural destination.",
+  "entry_fee": "Free entry, donations are welcome",
+  "address": "Hare Krishna Hill, Chord Road, Rajajinagar, Bangalore, Karnataka, India"
+},{
+  "name": "Sri Ranganathaswamy Temple (Dodda Ganesha Temple)",
+      "latitude": 12.9561,
+      "longitude": 77.5726,
+      "timings": "6:00 AM - 1:00 PM, 4:00 PM - 9:00 PM",
+      "description": "The Dodda Ganesha Temple is a part of the Sri Ranganathaswamy Temple complex and is known for its giant Ganesha idol, which is believed to be the largest monolithic Ganesha statue in the world.",
+      "entry_fee": "Free entry",
+      "address": "Chamarajpet, Bangalore, Karnataka, India"
+},{
+      "name": "Gavi Gangadhareshwara Temple",
+      "latitude": 12.9425,
+      "longitude": 77.5653,
+      "timings": "6:00 AM - 8:00 PM",
+      "description": "The Gavi Gangadhareshwara Temple is famous for its unique architecture and the annual phenomenon where the sun's rays pass through the horns of Nandi and illuminate the deity on Makara Sankranti.",
+      "entry_fee": "Free entry",
+      "address": "Gavipuram Guttahalli, Kempegowda Nagar, Bangalore, Karnataka, India"
+},{
+  "name": "St. Mary's Basilica",
+  "latitude": 12.9779,
+  "longitude": 77.6045,
+  "timings": "6:00 AM - 9:00 PM",
+  "description": "St. Mary's Basilica is one of the oldest churches in Bangalore. It is a beautiful example of Gothic architecture and is dedicated to the Virgin Mary.",
+  "entry_fee": "Free entry",
+  "address": "Shivaji Nagar, Bangalore, Karnataka, India"
+}],
+"Shopping" : [{
+  "name": "Mantri Square Mall",
+      "latitude": 12.9919,
+      "longitude": 77.5714,
+      "timings": "10:00 AM - 10:00 PM",
+      "description": "Mantri Square Mall is one of the largest shopping malls in Bangalore, offering a wide range of retail stores and entertainment options.",
+      "entry_fee": "Free",
+      "address": "Sampige Road, Malleswaram, Bangalore"
+},{
+  "name": "Garuda Mall",
+      "latitude": 12.9714,
+      "longitude": 77.6083,
+      "timings": "11:00 AM - 10:00 PM",
+      "description": "Garuda Mall is a trendy shopping destination with popular brands, a multiplex cinema, and various dining options.",
+      "entry_fee": "Free",
+      "address": "Magrath Road, Ashok Nagar, Bangalore"
+},{
+    "name": "Forum Mall",
+      "latitude": 12.9330,
+      "longitude": 77.6250,
+      "timings": "10:00 AM - 10:00 PM",
+      "description": "Forum Mall is a shopping complex featuring a mix of retail stores, a food court, and entertainment outlets.",
+      "entry_fee": "Free",
+      "address": "Hosur Road, Koramangala, Bangalore"
+},{
+  "name": "Brigade Road",
+  "latitude": 12.9716,
+  "longitude": 77.6086,
+  "timings": "Varies by store",
+  "description": "Brigade Road is a bustling shopping street with a variety of shops, boutiques, and street vendors selling clothing and accessories.",
+  "entry_fee": "Free",
+  "address": "Brigade Road, Shanthala Nagar, Bangalore"
+},{
+  "name": "Orion Mall",
+      "latitude": 13.0108,
+      "longitude": 77.5510,
+      "timings": "10:00 AM - 10:00 PM",
+      "description": "Orion Mall is a popular shopping destination offering a wide range of retail outlets, entertainment options, and a food court.",
+      "entry_fee": "Free",
+      "address": "Dr Rajkumar Road, Rajajinagar, Bangalore"
+},{
+  "name": "Phoenix Marketcity",
+      "latitude": 12.9352,
+      "longitude": 77.6337,
+      "timings": "11:00 AM - 11:00 PM",
+      "description": "Phoenix Marketcity is a large shopping mall with numerous stores, a cinema, gaming zone, and various dining choices.",
+      "entry_fee": "Free",
+      "address": "Whitefield Main Road, Devasandra Industrial Estate, Mahadevapura, Bangalore"
+}],"Food Places" : [{
+  "name": "MTR - Mavalli Tiffin Room",
+      "latitude": 12.9577,
+      "longitude": 77.5713,
+      "timings": "6:30 AM - 11:00 AM, 12:30 PM - 9:00 PM",
+      "description": "MTR is a legendary eatery known for its South Indian vegetarian delicacies, including dosas, idlis, and filter coffee.",
+      "address": "14, Lalbagh Road, Bangalore",
+      "food_type": "Vegetarian"
+},{
+  "name": "Karavalli - The Gateway Hotel",
+      "latitude": 12.9643,
+      "longitude": 77.6372,
+      "timings": "12:30 PM - 2:30 PM, 7:00 PM - 11:00 PM",
+      "description": "Karavalli offers coastal Indian cuisine, specializing in seafood and a range of non-vegetarian dishes.",
+      "address": "66, Residency Road, Bangalore",
+      "food_type": "Non-Vegetarian"
+},{
+  "name": "Vidyarthi Bhavan",
+  "latitude": 12.9611,
+  "longitude": 77.5742,
+  "timings": "6:30 AM - 11:00 AM, 12:30 PM - 9:30 PM",
+  "description": "Vidyarthi Bhavan is famous for its crispy masala dosas and other traditional South Indian vegetarian dishes.",
+  "address": "32, Gandhi Bazaar, Basavanagudi, Bangalore",
+  "food_type": "Vegetarian"
+},{
+  "name": "Toit Brewpub",
+  "latitude": 12.9357,
+  "longitude": 77.6226,
+  "timings": "12:00 PM - 1:00 AM",
+  "description": "Toit Brewpub is a popular spot for craft beer and a diverse menu featuring both vegetarian and non-vegetarian options.",
+  "address": "298, 100 Feet Road, Indiranagar, Bangalore",
+  "food_type": "Mixed (Vegetarian & Non-Vegetarian)"
+},{
+  "name": "Koshy's",
+      "latitude": 12.9713,
+      "longitude": 77.6072,
+      "timings": "9:00 AM - 11:00 PM",
+      "description": "Koshy's is a beloved institution offering a mix of Indian and continental cuisine, including both vegetarian and non-vegetarian dishes.",
+      "entry_fee": "Free",
+      "address": "39, St. Marks Road, Bangalore",
+      "food_type": "Mixed (Vegetarian & Non-Vegetarian)"
+},{
+  "name": "CTR - Shri Sagar",
+  "latitude": 12.9525,
+  "longitude": 77.5859,
+  "timings": "7:30 AM - 12:00 PM, 4:00 PM - 9:30 PM",
+  "description": "CTR is renowned for its buttery, soft idlis and crispy dosas, serving primarily vegetarian South Indian dishes.",
+  "entry_fee": "Free",
+  "address": "7th Cross, Margosa Road, Malleswaram, Bangalore",
+  "food_type": "Vegetarian"
+},{
+  "name": "The Black Pearl",
+  "latitude": 12.9270,
+  "longitude": 77.6328,
+  "timings": "12:00 PM - 11:00 PM",
+  "description": "The Black Pearl is a seafood restaurant offering a wide variety of non-vegetarian coastal delicacies.",
+  "entry_fee": "Varies",
+  "address": "105, 1st A Cross Road, 5th Block, Koramangala, Bangalore",
+  "food_type": "Non-Vegetarian"
+},{
+  "name": "Vapour Pub and Brewery",
+      "latitude": 12.9667,
+      "longitude": 77.6032,
+      "timings": "12:30 PM - 12:00 AM",
+      "description": "Vapour is a brewpub serving a mix of vegetarian and non-vegetarian dishes along with craft beer.",
+      "entry_fee": "Varies",
+      "address": "773, HAL 2nd Stage, 100 Feet Road, Indiranagar, Bangalore",
+      "food_type": "Mixed (Vegetarian & Non-Vegetarian)"
+}]
+},
+"city2" : "Magalore",
+"Typeofplaces-in-Magalore" :{
+  "historical_places_in_mangalore" : [{
+    "name": "Sultan Battery",
+    "latitude": 12.8794,
+    "longitude": 74.8441,
+    "timings": "Open 24 hours",
+    "description": "Sultan Battery is a historic watchtower and fort built by Tipu Sultan in the late 18th century. It offers panoramic views of the Arabian Sea and the surrounding area.",
+    "entry_fee": "Free",
+    "address": "Boloor, Mangaluru, Karnataka 575003"
+  },{
+    "name": "St. Aloysius Chapel",
+      "latitude": 12.8726,
+      "longitude": 74.8483,
+      "timings": "8:30 AM - 6:00 PM",
+      "description": "St. Aloysius Chapel is known for its stunning frescoes and paintings on the ceiling and walls. It's a significant landmark with intricate artwork.",
+      "entry_fee": "Free",
+      "address": "Light House Hill Rd, Hampankatta, Mangaluru, Karnataka 575001"
+  },{
+    "name": "Mangaladevi Temple",
+      "latitude": 12.8682,
+      "longitude": 74.8414,
+      "timings": "6:00 AM - 1:00 PM and 4:00 PM - 8:00 PM",
+      "description": "Mangaladevi Temple is an ancient temple dedicated to the goddess Mangaladevi, from whom Mangalore got its name. It's a place of religious and historical significance.",
+      "entry_fee": "Free",
+      "address": "Car Street, Bolar, Mangaluru, Karnataka 575001"
+  },{
+    "name": "Mangalore Palace",
+    "latitude": 12.8729,
+    "longitude": 74.8440,
+    "timings": "10:00 AM - 5:30 PM (Closed on Sundays)",
+    "description": "Mangalore Palace is a historic palace built by the rulers of the Wodeyar dynasty. It features a blend of Indian and European architectural styles.",
+    "entry_fee": {
+      "Adults": "₹20",
+      "Children (Below 7 years)": "Free"
+    },
+    "address": "Lighthouse Hill Road, Hampankatta, Mangaluru, Karnataka 575001"
+  }
+],
+"Adventerous" : [{
+  "name": "Tannirbhavi Beach",
+  "latitude": 12.8865,
+  "longitude": 74.8421,
+  "timings": "Open 24 hours",
+  "description": "Tannirbhavi Beach is a scenic beach known for its golden sands and calm waters. It's a popular spot for swimming, beach games, and picnics.",
+  "entry_fee": "Free",
+  "dress_code": "Casual beachwear and swimwear",
+  "address": "Tannirbhavi, Mangaluru, Karnataka 575016"
+},{
+     "name": "Panambur Beach",
+      "latitude": 12.9436,
+      "longitude": 74.8262,
+      "timings": "6:00 AM - 8:00 PM",
+      "description": "Panambur Beach is a well-maintained beach with water sports facilities. Visitors can enjoy activities like jet skiing, parasailing, and camel rides.",
+      "entry_fee": "Free",
+      "dress_code": "Casual beachwear",
+      "address": "Panambur, Mangaluru, Karnataka 575010"
+},{
+  "name": "Surathkal Beach",
+  "latitude": 13.0011,
+  "longitude": 74.8560,
+  "timings": "Open 24 hours",
+  "description": "Surathkal Beach is a relatively quiet and less crowded beach with rocky shores. It's ideal for sunset views and nature walks.",
+  "entry_fee": "Free",
+  "dress_code": "Casual beachwear",
+  "address": "Surathkal, Mangaluru, Karnataka 575014"
+},{
+    "name": "Kudremukh Trek",
+      "latitude": 13.2069,
+      "longitude": 75.6577,
+      "timings": "Best during daylight hours",
+      "description": "Kudremukh is a trekking destination in the Western Ghats. The trek offers lush greenery, waterfalls, and breathtaking views of the mountains.",
+      "entry_fee": "Varies depending on the trekking route and permits.",
+      "dress_code": "Comfortable trekking attire and suitable footwear",
+      "address": "Kudremukh, Chikmagalur District, Karnataka 577142"
+ 
+}
+],"Park" : [{
+  "name": "Kadri Park",
+  "latitude": 12.8801,
+  "longitude": 74.8450,
+  "timings": "6:00 AM - 8:00 PM",
+  "description": "Kadri Park is a well-maintained urban park with lush greenery, walking paths, and a children's play area. It's a peaceful place for relaxation and picnics.",
+  "entry_fee": "Free",
+  "dress_code": "Casual attire",
+  "address": "Kadri, Mangaluru, Karnataka 575004"
+},{
+  "name": "Tagore Park",
+  "latitude": 12.8767,
+  "longitude": 74.8425,
+  "timings": "6:00 AM - 8:00 PM",
+  "description": "Tagore Park is a serene park dedicated to the memory of Rabindranath Tagore. It features green lawns, a musical fountain, and a small library.",
+  "entry_fee": "Free",
+  "dress_code": "Casual attire",
+  "address": "Light House Hill Rd, Hampankatta, Mangaluru, Karnataka 575001"
+},{
+  "name": "Sahyadri College Park",
+  "latitude": 12.9131,
+  "longitude": 74.8561,
+  "timings": "Open 24 hours",
+  "description": "Sahyadri College Park is a small but well-maintained park with lush lawns, perfect for a peaceful walk or relaxation.",
+  "entry_fee": "Free",
+  "dress_code": "Casual attire",
+  "address": "Adyar, Mangaluru, Karnataka 575007"
+},{
+  "name": "Pilikula Nisargadhama",
+  "latitude": 12.7121,
+  "longitude": 75.2045,
+  "timings": "9:30 AM - 6:00 PM",
+  "description": "Pilikula Nisargadhama is an eco-educational and recreational park offering a variety of attractions, including a botanical garden, zoo, boating, and a science center.",
+  "entry_fee": "Varies for different attractions within the park",
+  "dress_code": "Casual attire",
+  "address": "Vamanjoor, Moodushedde, Mangaluru, Karnataka 575028"
+}
+],"Religious" : [{
+     "name": "Kadri Manjunath Temple",
+      "latitude": 12.8800,
+      "longitude": 74.8429,
+      "timings": "5:30 AM - 1:00 PM and 4:00 PM - 8:30 PM",
+      "description": "Kadri Manjunath Temple is one of the oldest and most revered temples in Mangalore dedicated to Lord Shiva. It features unique bronze statues and a peaceful atmosphere.",
+      "entry_fee": "Free",
+      "dress_code": "Modest attire; cover your shoulders and legs",
+      "address": "Kadri, Mangaluru, Karnataka 575004"
+},{
+  "name": "St. Aloysius Church",
+  "latitude": 12.8726,
+  "longitude": 74.8483,
+  "timings": "6:00 AM - 8:00 PM",
+  "description": "St. Aloysius Church is a historic Jesuit church known for its stunning frescoes and religious art. It's a place of worship and artistic appreciation.",
+  "entry_fee": "Free",
+  "dress_code": "Modest attire; cover your shoulders and knees",
+  "address": "Light House Hill Rd, Hampankatta, Mangaluru, Karnataka 575001"
+
+},{
+     "name": "Kateel Durgaparameshwari Temple",
+      "latitude": 13.0085,
+      "longitude": 74.9736,
+      "timings": "4:30 AM - 9:00 PM",
+      "description": "Kateel Durgaparameshwari Temple is a famous temple dedicated to Goddess Durga. It is located on an islet in the Nandini River and is known for its serene surroundings.",
+      "entry_fee": "Free",
+      "dress_code": "Modest attire; cover your shoulders and legs",
+      "address": "Kateel, Karnataka 574148"
+},{
+  "name": "Kudroli Gokarnath Temple",
+  "latitude": 12.8665,
+  "longitude": 74.8543,
+  "timings": "5:30 AM - 1:30 PM and 4:30 PM - 8:30 PM",
+  "description": "Kudroli Gokarnath Temple is a prominent temple in Mangalore dedicated to Lord Shiva. It hosts cultural and religious events and features unique architecture.",
+  "entry_fee": "Free",
+  "dress_code": "Modest attire; cover your shoulders and legs",
+  "address": "Kudroli, Mangaluru, Karnataka 575003"
+},{
+  "name": "Milon Masjid",
+  "latitude": 12.8661,
+  "longitude": 74.8528,
+  "timings": "Open during prayer times",
+  "description": "Milon Masjid is a significant mosque in Mangalore. It is a place of worship and reflection for the Muslim community in the city.",
+  "entry_fee": "Free",
+  "dress_code": "Modest attire; covering as per Islamic tradition",
+  "address": "Kudroli, Mangaluru, Karnataka 575003"
+}
+],
+"Beaches" : [{
+  "name": "Panambur Beach",
+  "latitude": 12.9436,
+  "longitude": 74.8262,
+  "timings": "6:00 AM - 8:00 PM",
+  "description": "Panambur Beach is a well-maintained and popular beach known for its golden sands. It offers water sports, camel rides, and a relaxed atmosphere.",
+  "entry_fee": "Free",
+  "dress_code": "Casual beachwear",
+  "address": "Panambur, Mangaluru, Karnataka 575010"
+},{
+  "name": "Tannirbhavi Beach",
+  "latitude": 12.8865,
+  "longitude": 74.8421,
+  "timings": "Open 24 hours",
+  "description": "Tannirbhavi Beach is a serene and less crowded beach known for its beauty. It's a great spot for swimming, beach games, and picnics.",
+  "entry_fee": "Free",
+  "dress_code": "Casual beachwear and swimwear",
+  "address": "Tannirbhavi, Mangaluru, Karnataka 575016"
+},{
+      "name": "Surathkal Beach",
+      "latitude": 13.0011,
+      "longitude": 74.8560,
+      "timings": "Open 24 hours",
+      "description": "Surathkal Beach is a peaceful beach with rocky shores. It's an ideal place to enjoy sunset views and nature walks.",
+      "entry_fee": "Free",
+      "dress_code": "Casual beachwear",
+      "address": "Surathkal, Mangaluru, Karnataka 575014"
+},{
+  "name": "Sasihithlu Beach",
+  "latitude": 12.9496,
+  "longitude": 74.7924,
+  "timings": "Open 24 hours",
+  "description": "Sasihithlu Beach is a secluded and less-visited beach, making it perfect for a tranquil experience by the sea.",
+  "entry_fee": "Free",
+  "dress_code": "Casual beachwear",
+  "address": "Sasihithlu, Mangaluru, Karnataka 575021"
+}],
+  "Food Places" : [{
+    "name": "Giri Manja's",
+    "latitude": 12.9122,
+    "longitude": 74.8502,
+    "timings": "12:00 PM - 3:30 PM and 7:00 PM - 11:00 PM",
+    "description": "Giri Manja's is a popular seafood restaurant in Mangalore known for its delicious coastal cuisine. It offers a variety of seafood dishes and traditional flavors.",
+    "entry_fee": "No entry fee; prices vary based on the menu",
+    "address": "Attavar, Mangaluru, Karnataka 575002",
+    "dress_code": "Casual attire",
+    "food_type": "Seafood and Coastal Cuisine",
+    "food_variety": "Non-Veg"
+},{
+     "name": "Ideal Ice Cream",
+      "latitude": 12.8652,
+      "longitude": 74.8470,
+      "timings": "11:00 AM - 10:30 PM",
+      "description": "Ideal Ice Cream is an iconic ice cream parlor in Mangalore, known for its delectable ice creams and desserts.",
+      "entry_fee": "No entry fee; prices vary based on the menu",
+      "address": "Market Road, Hampankatta, Mangaluru, Karnataka 575001",
+      "dress_code": "Casual attire",
+      "food_type": "Ice Cream and Desserts",
+      "food_variety": "Veg"
+},{
+  "name": "Machali",
+  "latitude": 12.9191,
+  "longitude": 74.8536,
+  "timings": "12:00 PM - 3:30 PM and 7:00 PM - 10:30 PM",
+  "description": "Machali is a seafood restaurant offering a wide range of coastal dishes. It's a great place for seafood lovers.",
+  "entry_fee": "No entry fee; prices vary based on the menu",
+  "address": "Hampankatta, Mangaluru, Karnataka 575001",
+  "dress_code": "Casual attire",
+  "food_type": "Seafood and Coastal Cuisine",
+  "food_variety": "Non-Veg"
+},{
+  "name": "Pabbas",
+  "latitude": 12.8682,
+  "longitude": 74.8480,
+  "timings": "11:30 AM - 3:30 PM and 7:00 PM - 11:00 PM",
+  "description": "Pabbas is a famous ice cream parlor offering a wide range of ice cream flavors and sweet treats.",
+  "entry_fee": "No entry fee; prices vary based on the menu",
+  "address": "Light House Hill Road, Hampankatta, Mangaluru, Karnataka 575001",
+  "dress_code": "Casual attire",
+  "food_type": "Ice Cream and Desserts",
+  "food_variety": "Veg"
+}]
+},
+"city3" : "Hyderabad",
+"Typeofplaces-in-Hyderabad" :{
+  "Historical" : [{
+    "name": "Charminar",
+      "latitude": 17.3616,
+      "longitude": 78.4747,
+      "timings": "9:30 AM - 5:30 PM (Closed on Fridays)",
+      "description": "Charminar is an iconic monument and mosque known for its four grand arches and minarets. It was built in 1591 and is a symbol of Hyderabad.",
+      "entry_fee": 25.0,
+      "address": "Charminar, Hyderabad, Telangana, India",
+      "dress_code": "Modest attire"
+  },{
+      "name": "Golconda Fort",
+      "latitude": 17.3833,
+      "longitude": 78.4011,
+      "timings": "9:00 AM - 5:30 PM (Closed on Fridays)",
+      "description": "Golconda Fort is a historic citadel known for its impressive architecture and acoustics. It has a rich history and offers panoramic views of the city.",
+      "entry_fee": 25.0,
+      "address": "Golkonda, Hyderabad, Telangana, India",
+      "dress_code": "Comfortable clothing"
+  },{
+      "name": "Qutb Shahi Tombs",
+      "latitude": 17.3850,
+      "longitude": 78.3946,
+      "timings": "10:00 AM - 5:00 PM (Closed on Fridays)",
+      "description": "Qutb Shahi Tombs are a group of royal mausoleums of the Qutb Shahi dynasty. They showcase a blend of Persian and Indian architectural styles.",
+      "entry_fee": 10.0,
+      "address": "Ibrahim Bagh, Hyderabad, Telangana, India",
+      "dress_code": "Modest attire"
+  },{
+    "name": "Paigah Tombs",
+    "latitude": 17.3934,
+    "longitude": 78.4647,
+    "timings": "9:30 AM - 5:30 PM (Closed on Fridays)",
+    "description": "The Paigah Tombs are the resting places of the noble Paigah family. These tombs are known for their intricate stucco work and architectural beauty.",
+    "entry_fee": 20.0,
+    "address": "Santosh Nagar, Hyderabad, Telangana, India",
+    "dress_code": "Modest attire"
+  },{
+      "name": "Chowmahalla Palace",
+      "latitude": 17.3578,
+      "longitude": 78.4718,
+      "timings": "10:00 AM - 5:00 PM (Closed on Fridays)",
+      "description": "Chowmahalla Palace is a historic palace complex that was the seat of the Nizams of Hyderabad. It features stunning architecture and a collection of artifacts.",
+      "entry_fee": 50.0,
+      "address": "Khilwat, Hyderabad, Telangana, India",
+      "dress_code": "Modest attire"
+  }
+],
+"Adventerous" : [{
+  "name": "Ramoji Film City Adventure Park",
+  "latitude": 17.2541,
+  "longitude": 78.6804,
+  "timings": "10:00 AM - 5:30 PM",
+  "description": "Ramoji Film City Adventure Park offers a range of adventure activities such as zip-lining, paintball, and obstacle courses within the iconic film city premises.",
+  "entry_fee": 800.0,
+  "address": "Ramoji Film City, Hyderabad, Telangana, India",
+  "dress_code": "Comfortable clothing"
+},{
+      "name": "Wild Waters Water Park",
+      "latitude": 17.3446,
+      "longitude": 78.3563,
+      "timings": "11:00 AM - 6:00 PM (Closed on Mondays)",
+      "description": "Wild Waters Water Park is a fun-filled water park featuring thrilling water slides, wave pools, and a variety of water-based activities for all ages.",
+      "entry_fee": 750.0,
+      "address": "Shankarpalli Road, Hyderabad, Telangana, India",
+      "dress_code": "Swimwear and casual attire"
+},{
+      "name": "Escape Water and Adventure Park",
+      "latitude": 17.5545,
+      "longitude": 78.5941,
+      "timings": "10:30 AM - 6:00 PM (Closed on Mondays)",
+      "description": "Escape Water and Adventure Park offers water rides, adventure sports, and activities like rock climbing, ziplining, and more, making it a great destination for adventure enthusiasts.",
+      "entry_fee": 750.0,
+      "address": "Shankarpalli Road, Hyderabad, Telangana, India",
+      "dress_code": "Swimwear and comfortable clothing"
+}
+],"Park" : [{
+  "name": "Lumbini Park",
+  "latitude": 17.4083,
+  "longitude": 78.4727,
+  "timings": "10:00 AM - 8:30 PM",
+  "description": "Lumbini Park is a scenic urban park located on the banks of Hussain Sagar Lake. It offers boating, musical fountain shows, and a peaceful environment.",
+  "entry_fee": 20.0,
+  "address": "Necklace Road, Hyderabad, Telangana, India",
+  "dress_code": "Casual attire"
+},{
+  "name": "Nehru Zoological Park",
+  "latitude": 17.3595,
+  "longitude": 78.4405,
+  "timings": "8:00 AM - 5:30 PM (Closed on Mondays)",
+  "description": "Nehru Zoological Park is a vast wildlife park with a variety of animals, birds, and a safari park. It's an educational and family-friendly destination.",
+  "entry_fee": 50.0,
+  "address": "Bahadurpura, Hyderabad, Telangana, India",
+  "dress_code": "Casual attire"
+},{
+  "name": "KBR National Park",
+  "latitude": 17.4241,
+  "longitude": 78.4035,
+  "timings": "6:00 AM - 8:00 AM and 4:00 PM - 6:00 PM",
+  "description": "KBR National Park is a serene urban park with walking trails and a variety of flora and fauna. It's an ideal spot for nature lovers and birdwatchers.",
+  "entry_fee": 20.0,
+  "address": "Banjara Hills, Hyderabad, Telangana, India",
+  "dress_code": "Casual attire"
+}
+],"Religious" : [{
+  "name": "Birla Mandir",
+  "latitude": 17.4064,
+  "longitude": 78.4692,
+  "timings": "7:00 AM - 12:00 PM and 3:00 PM - 9:00 PM",
+  "description": "Birla Mandir, also known as Lakshmi Narayan Temple, is a beautiful marble temple dedicated to Lord Venkateswara and Goddess Lakshmi. It offers panoramic views of the city.",
+  "entry_fee": 0.0,
+  "address": "Hill Fort Road, Hyderabad, Telangana, India",
+  "dress_code": "Modest attire"
+},{
+  "name": "Mecca Masjid",
+  "latitude": 17.3616,
+  "longitude": 78.4746,
+  "timings": "Open for prayers",
+  "description": "Mecca Masjid is one of the largest mosques in India and a revered religious site for Muslims. It is known for its grand architecture and can accommodate thousands of worshippers.",
+  "entry_fee": 0.0,
+  "address": "Charminar, Hyderabad, Telangana, India",
+  "dress_code": "Modest attire"
+},{
+     "name": "Chilkur Balaji Temple",
+      "latitude": 17.3197,
+      "longitude": 78.3095,
+      "timings": "5:00 AM - 8:00 PM",
+      "description": "Chilkur Balaji Temple, also known as the 'Visa Balaji Temple,' is famous for granting wishes. Devotees visit to seek blessings and fulfill their desires.",
+      "entry_fee": 0.0,
+      "address": "Chilkur Village, Moinabad Mandal, Hyderabad, Telangana, India",
+      "dress_code": "Traditional attire"
+},{
+  "name": "Sanghi Temple",
+  "latitude": 17.2011,
+  "longitude": 78.5243,
+  "timings": "5:30 AM - 8:30 PM",
+  "description": "Sanghi Temple is a serene and ornate complex dedicated to Lord Venkateswara. It features 9 feet tall idols of deities, beautiful architecture, and a peaceful ambiance.",
+  "entry_fee": 0.0,
+  "address": "Sanghi Nagar, Ramoji Film City, Hyderabad, Telangana, India",
+  "dress_code": "Modest attire"
+}],
+"Shopping" : [{
+  "name": "Laad Bazaar",
+  "latitude": 17.3617,
+  "longitude": 78.4748,
+  "timings": "10:00 AM - 11:00 PM",
+  "description": "Laad Bazaar, also known as Choodi Bazaar, is famous for its exquisite bangles and traditional jewelry. It's a vibrant shopping destination in the Charminar area.",
+  "entry_fee": 0.0,
+  "address": "Charminar, Hyderabad, Telangana, India",
+  "dress_code": "Casual attire"
+},{
+      "name": "Inorbit Mall",
+      "latitude": 17.4524,
+      "longitude": 78.3839,
+      "timings": "11:00 AM - 10:00 PM",
+      "description": "Inorbit Mall is a modern shopping complex with a wide range of retail stores, restaurants, and entertainment options, making it a popular shopping and leisure destination.",
+      "entry_fee": 0.0,
+      "address": "Madhapur, Hyderabad, Telangana, India",
+      "dress_code": "Casual attire"
+},{
+  "name": "GVK One Mall",
+  "latitude": 17.4262,
+  "longitude": 78.4217,
+  "timings": "11:00 AM - 10:00 PM",
+  "description": "GVK One Mall is a luxury shopping destination featuring high-end brands, fine dining, and entertainment. It's a place for upscale shopping and leisure.",
+  "entry_fee": 0.0,
+  "address": "Banjara Hills, Hyderabad, Telangana, India",
+  "dress_code": "Casual attire"
+}],
+  "Food Places" : [{
+    "name": "Paradise Restaurant",
+    "latitude": 17.4268,
+    "longitude": 78.4435,
+    "timings": "11:00 AM - 11:00 PM",
+    "description": "Paradise is renowned for its biryani and other Hyderabadi dishes. It's a must-visit for authentic Hyderabadi cuisine.",
+    "entry_fee": "No entry fee; prices vary based on the menu",
+    "address": "Paradise Circle, Secunderabad, Telangana 500003",
+    "dress_code": "Casual attire",
+    "food_type": "Indian",
+    "food_variety": "Veg and Non-Veg"
+},{
+  "name": "Bawarchi Restaurant",
+  "latitude": 17.3850,
+  "longitude": 78.4820,
+  "timings": "11:30 AM - 11:00 PM",
+  "description": "Bawarchi is famous for its spicy Hyderabadi biryani and kebabs. It's a go-to spot for biryani lovers.",
+  "entry_fee": "No entry fee; prices vary based on the menu",
+  "address": "RTC Cross Roads, Nallakunta, Hyderabad, Telangana 500044",
+  "dress_code": "Casual attire",
+  "food_type": "Indian",
+  "food_variety": "Veg and Non-Veg"
+},{
+  "name": "Café Bahar",
+      "latitude": 17.3982,
+      "longitude": 78.4810,
+      "timings": "11:00 AM - 12:00 AM",
+      "description": "Café Bahar is known for its biryani, kebabs, and traditional Hyderabadi dishes in a casual dining setting.",
+      "entry_fee": "No entry fee; prices vary based on the menu",
+      "address": "RTC Cross Roads, Nallakunta, Hyderabad, Telangana 500044",
+      "dress_code": "Casual attire",
+      "food_type": "Indian",
+      "food_variety": "Veg and Non-Veg"
+},{
+  "name": "Chutneys",
+      "latitude": 17.4264,
+      "longitude": 78.4489,
+      "timings": "7:00 AM - 11:00 PM",
+      "description": "Chutneys is famous for its South Indian and Andhra cuisine, including idlis, dosas, and spicy chutneys.",
+      "entry_fee": "No entry fee; prices vary based on the menu",
+      "address": "1-8-303/48/66 & 67, Patigadda Road, Begumpet, Hyderabad, Telangana 500016",
+      "dress_code": "Casual attire",
+      "food_type": "South Indian and Andhra Cuisine",
+      "food_variety": "Veg and Non-Veg"
+}]
+}
+}]
+}
+ 

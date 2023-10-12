@@ -1,0 +1,17 @@
+{
+  "Ironman":"images/ironman.jpg",
+  "Antman" : "images/antaman.jpg",
+  "Batman" : "images/batman.jpg",
+  "Black Panther" : "images/blackpanther.jpg",
+  "Black Widow" : "images/blackwindow.jpg", 
+  "Dead Pool":"images/deadpool.jpg", 
+  "Captain Marvel":"images/captainmarvel.jpg",
+  "Falcon":"images/falcon.jpg",
+  "Dr Strange":"images/drStranger.jpg",
+  "Hawlkeye":"images/Hawkeye.jpg", 
+  "Hulk":"images/hulk.jpg", 
+  "Rajani":"images/rajani.jpg", 
+  "Thor":"images/thor.jpg",
+ "Vision":"images/vision.jpg",
+ "Wonder Women":"images/wonderwoman.jpg"
+}

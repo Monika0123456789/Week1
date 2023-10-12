@@ -1,0 +1,16 @@
+{
+  "avengers": [
+    {
+      "title": "Dr Strange",
+      "power": 1,
+      "city": "Chicago",
+      "relatedImg": "images/drStranger.jpg"
+    },
+    {
+      "title": "Batman",
+      "power": 6,
+      "city": "Rome",
+      "relatedImg": "images/batman.jpg"
+    }
+  ]
+}

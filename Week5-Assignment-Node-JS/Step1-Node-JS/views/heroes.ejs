@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Superhero Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Avengers Form Of EJS</h1>
+    <form action="/add" method="post">
+      <div class="form-group">
+        <label for="title">Title:</label>
+        <input type="text" name="title" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="power">Power:</label>
+        <input type="text" name="power" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="city">City:</label>
+        <input type="text" name="city" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Add Hero</button>
+    </form>
+
+    <h2>List's Of heroes</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Power</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% heroes.forEach(function(hero) { %>
+          <tr>
+            <td><%= hero.title %></td>
+            <td><%= hero.firstName %></td>
+            <td><%= hero.lastName %></td>
+            <td><%= hero.power %></td>
+            <td><%= hero.city %></td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

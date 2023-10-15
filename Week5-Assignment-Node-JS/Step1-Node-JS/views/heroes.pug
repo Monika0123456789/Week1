@@ -1,0 +1,42 @@
+doctype html
+html
+  head
+    title Superhero Form
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet")
+  body
+    h1 Avengers Form Of Pug
+    form(action="/add" method="post")
+      label(for="title") Title:
+      input(type="text" name="title" required)
+      br
+      label(for="firstName") First Name:
+      input(type="text" name="firstName" required)
+      br
+      label(for="lastName") Last Name:
+      input(type="text" name="lastName" required)
+      br
+      label(for="power") Power:
+      input(type="text" name="power" required)
+      br
+      label(for="city") City:
+      input(type="text" name="city" required)
+      br
+      button(type="submit") Add Hero
+    h2 List Of heroes 
+    table.table.table-striped
+      thead
+        tr
+          th Title
+          th First Name
+          th Last Name
+          th Power
+          th City
+      tbody
+        each hero in heroes
+          tr
+            td= hero.title
+            td= hero.firstName
+            td= hero.lastName
+            td= hero.power
+            td= hero.city
+    
